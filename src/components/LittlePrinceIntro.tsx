@@ -46,7 +46,7 @@ export const LittlePrinceIntro: React.FC<LittlePrinceIntroProps> = ({ onComplete
           transition={{ delay: 0.6, duration: 0.8 }}
           className="text-amber-300 font-serif tracking-widest text-xs sm:text-sm uppercase text-center font-semibold"
         >
-          Para Sofi
+          Para Ale
         </motion.p>
       </motion.div>
     </motion.div>
