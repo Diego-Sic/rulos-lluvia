@@ -12,37 +12,37 @@ export interface Stanza {
 const POEM_STANZAS: Stanza[] = [
   {
     id: 1,
-    planetName: "La Lluvia sobre el Asteroide",
+    planetName: "El Mar y la Tormenta",
     theme: "sahara",
     lines: [
-      "Hoy el cielo decidió caerse a pedazos,",
-      "pero las nubes no saben lo que tú llevas dentro.",
-      "A veces los días pesados solo necesitan un respiro,",
-      "y un par de gotas para limpiar el camino."
+      "La lluvia de hoy no limpia el ambiente,",
+      "solo compite con la fuerza de tu mirada.",
+      "Incluso cuando el día se pone gris y pesado,",
+      "tienes esa marea interna que nada puede apagar."
     ],
     illustration: "desert"
   },
   {
     id: 2,
-    planetName: "El Espiral de la Rosa",
+    planetName: "Oleaje en Movimiento",
     theme: "rose",
     lines: [
-      "Tus rulos tienen su propia manera de desafiar la gravedad,",
-      "como si cada curva guardara un pequeño secreto.",
-      "Incluso bajo la lluvia, enredados y despeinados,",
-      "se ven ridículamente hermosos."
+      "Cada rulo tuyo es como una ola en pleno mar abierto:",
+      "rebelde, impredecible y con su propio ritmo.",
+      "No hay tormenta que despeine lo que nace con tanta fuerza;",
+      "el agua solo acentúa la forma exacta de tu cauce."
     ],
     illustration: "rose"
   },
   {
     id: 3,
-    planetName: "La Luz de B-612",
+    planetName: "Marea Calma en B-612",
     theme: "b612",
     lines: [
-      "No hay mal día que apague lo que eres.",
-      "Que la tormenta pase rápido,",
-      "porque el universo se ve mucho mejor",
-      "cuando te vuelves a encender."
+      "El océano no se disculpa por su profundidad,",
+      "y tú tampoco deberías por tener días oscuros.",
+      "Incluso en calma o en tempestad,",
+      "sigues siendo un espectáculo inmenso de contemplar."
     ],
     illustration: "b612"
   }
