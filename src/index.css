@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Plus Jakarta Sans', sans-serif;
+    transition: background-color 0.8s cubic-bezier(0.16, 1, 0.3, 1), color 0.8s cubic-bezier(0.16, 1, 0.3, 1);
+  }
+
+  h1, h2, h3, .font-serif {
+    font-family: 'Cinzel', serif;
+  }
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #0b0f19;
+}
+::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 3px;
+}
+
+.tattoo-frame {
+  position: relative;
+}
+.tattoo-frame::before {
+  content: '';
+  position: absolute;
+  inset: -2px;
+  border: 1px dashed rgba(245, 158, 11, 0.3);
+  border-radius: inherit;
+  pointer-events: none;
+  transition: all 0.5s ease;
+}
+.tattoo-frame:hover::before {
+  border-color: rgba(245, 158, 11, 0.8);
+  box-shadow: 0 0 15px rgba(245, 158, 11, 0.3);
+}
